@@ -1,0 +1,126 @@
+/* ============================================
+   Antitrope — Base CSS
+   Typography-first; palette from BibliochromatiqueN
+   Palette: Opium Den (slotted through CSS vars)
+   ============================================ */
+
+:root {
+  /* Paper & Ink */
+  --paper: #E6DFCC;        /* c0: Aged Silk */
+  --ink: #32312F;          /* c1: Ink Grey */
+
+  /* Accent & Surface */
+  --accent-1: #6D8774;     /* c2: Curtain Jade */
+  --accent-2: #B86863;     /* c3: Hidden Bloom */
+  --highlight: #5C4639;    /* c4: Smoke Wood */
+  --surface-1: #C8CEC3;    /* c5: Celadon Mist */
+  --surface-2: #D7DAD7;    /* c6: Pearl Ash */
+  --dark-surface: #1B201C; /* c7: Night Opium */
+
+  /* Typesetting rhythm */
+  --line-height: 1.56;
+  --measure: 70ch;
+  --font-size: 17px;
+  --sans-font: "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --serif-font: "EB Garamond", "Garamond", "Times New Roman", serif;
+  --mono-font: "Fira Code", monospace;
+
+  /* Layout */
+  --margin-block: 1.4rem;
+}
+
+/* Global reset */
+html, body, div, span, p, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* Base */
+html {
+  font-size: 16px;
+  background: var(--paper);
+  color: var(--ink);
+}
+
+body {
+  font-family: var(--serif-font);
+  line-height: var(--line-height);
+  max-width: var(--measure);
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+/* Headers — classical proportion */
+h1, h2, h3 {
+  margin-top: calc(var(--margin-block) * 2);
+  margin-bottom: calc(var(--margin-block) * 0.5);
+  font-family: var(--serif-font);
+  font-weight: 600;
+  letter-spacing: 0.01em;
+}
+
+h1 { font-size: 2rem; }
+h2 { font-size: 1.5rem; }
+h3 { font-size: 1.25rem; }
+
+/* Paragraph spacing */
+p {
+  margin-block: var(--margin-block);
+}
+
+/* Links — restrained, print-aware */
+a {
+  color: var(--accent-1);
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* Code blocks — tekne ethos */
+pre, code {
+  font-family: var(--mono-font);
+  background: var(--surface-2);
+  padding: 0.2rem 0.3rem;
+  border-radius: 4px;
+}
+
+/* Figures */
+figure {
+  margin: var(--margin-block) 0;
+}
+figcaption {
+  font-size: 0.9rem;
+  color: var(--highlight);
+}
+
+/* Navigation / header style */
+header, nav, footer {
+  font-family: var(--sans-font);
+  max-width: var(--measure);
+  margin: 0 auto;
+  padding: 1rem 0;
+}
+
+/* Footer tone */
+footer {
+  color: var(--highlight);
+  font-size: 0.85rem;
+  border-top: 1px solid var(--surface-2);
+  margin-top: 3rem;
+}
+
+/* Accessibility: images */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Blockquotes */
+blockquote {
+  margin: var(--margin-block);
+  padding-left: 1rem;
+  border-left: 3px solid var(--accent-2);
+  font-style: italic;
+}
