@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompileSettings Template="Yes">
+    <ProjectSettings>
+        <MetaData>
+            <MMDMetaData>
+                <Value Key="Title"><![CDATA[<$projecttitle>]]></Value>
+                <Value Key="Author"><![CDATA[<$author>]]></Value>
+            </MMDMetaData>
+        </MetaData>
+    </ProjectSettings>
+    <FormatSettings>
+        <Format ID="DEFAULT">
+            <SectionLayouts>
+                <Type ID="4478F547-7C6C-4DBB-8F74-C28581E458C6">NEW-PAGE-HEADER-WITH-TEXT</Type>
+                <Type ID="0362485F-260D-4FE1-8AED-0B1B37100F63">TEXT-SECTION</Type>
+            </SectionLayouts>
+        </Format>
+    </FormatSettings>
+    <CurrentFileType>Print</CurrentFileType>
+    <LastUsedFormats>
+        <Print>DEFAULT</Print>
+    </LastUsedFormats>
+</CompileSettings>

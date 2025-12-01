@@ -1,0 +1,84 @@
+<svg width="480" height="480" viewBox="0 0 480 480"
+     xmlns="http://www.w3.org/2000/svg">
+
+  <!-- OPIUM DEN PALETTE -->
+  <!-- Night Opium: #1B201C -->
+  <!-- Aged Silk:   #E6DFCC -->
+  <!-- Celadon Mist: #C8CEC3 -->
+
+  <defs>
+    <style type="text/css">
+      .outer-text {
+        font-family: "Noto Serif", "EB Garamond", serif;
+        font-size: 30px;
+        letter-spacing: 3px;
+        fill: #E6DFCC;
+      }
+      .inner-text {
+        font-family: "Noto Sans Phoenician", "Courier New", monospace;
+        font-size: 26px;
+        letter-spacing: 2.5px;
+        fill: #C8CEC3;
+      }
+      .tri-radial {
+        stroke: #E6DFCC;
+        stroke-width: 9;
+        stroke-linecap: round;
+      }
+      .outer-ring {
+        stroke: #E6DFCC;
+        stroke-width: 4;
+        fill: none;
+      }
+      .inner-ring {
+        stroke: #C8CEC3;
+        stroke-width: 3;
+        fill: none;
+      }
+    </style>
+  </defs>
+
+  <!-- BACKGROUND -->
+  <rect width="100%" height="100%" fill="#1B201C" />
+
+  <!-- OUTER CIRCLE -->
+  <circle cx="240" cy="240" r="210" class="outer-ring"/>
+
+  <!-- INNER CIRCLE -->
+  <circle cx="240" cy="240" r="147" class="inner-ring"/>
+
+  <!-- TEXT PATHS -->
+  <defs>
+    <!-- OUTER: start at top, full circle, sweep flipped so text is upright -->
+    <path id="outerCircle"
+          d="M 240,30
+             A 210,210 0 1,0 239.999,30"
+          fill="none" />
+
+    <!-- INNER: start at bottom, full circle, sweep flipped so text is upright -->
+    <path id="innerCircle"
+          d="M 240,387
+             A 147,147 0 1,0 239.999,387"
+          fill="none" />
+  </defs>
+
+  <!-- OUTER TEXT (crests at top) -->
+  <text class="outer-text">
+    <textPath href="#outerCircle" startOffset="50%" text-anchor="middle">
+      ΥΠΕΡ ΤΩΝ ΤΕΚΝΩΝ  ·  ANTIPROPE  ·  ÉDITION
+    </textPath>
+  </text>
+
+  <!-- INNER TEXT (rests at bottom) -->
+  <text class="inner-text">
+    <textPath href="#innerCircle" startOffset="50%" text-anchor="middle">
+      𐤅𐤐𐤄𐤓   𐤕𐤅𐤍   𐤕𐤄𐤊𐤍𐤅𐤍
+    </textPath>
+  </text>
+
+  <!-- TRI-RADIAL DEVICE -->
+  <line x1="240" y1="200" x2="240" y2="135" class="tri-radial"/>
+  <line x1="240" y1="200" x2="195" y2="255" class="tri-radial"/>
+  <line x1="240" y1="200" x2="285" y2="255" class="tri-radial"/>
+
+</svg>

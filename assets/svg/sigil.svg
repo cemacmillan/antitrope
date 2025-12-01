@@ -1,0 +1,72 @@
+<svg width="480" height="480" viewBox="0 0 480 480" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- COLOR DEFINITIONS (Opium Den Palette) -->
+  <!-- Aged Silk: #E6DFCC  | Ink Grey: #32312F | Celadon Mist (light accent): #C8CEC3 -->
+
+  <defs>
+    <style type="text/css">
+      .outer-text {
+        font-family: "Noto Serif", "EB Garamond", serif;
+        font-size: 30px;
+        letter-spacing: 3px;
+        fill: #32312F; /* Ink Grey */
+      }
+      .inner-text {
+        font-family: "Noto Sans Phoenician", "Courier New", monospace;
+        font-size: 26px;
+        letter-spacing: 2px;
+        fill: #5C4639; /* Smoke Wood */
+      }
+      .device {
+        font-family: "Noto Serif", serif;
+        font-size: 72px;
+        fill: #32312F;
+      }
+    </style>
+  </defs>
+
+  <!-- BACKGROUND -->
+  <rect width="100%" height="100%" fill="#E6DFCC" />
+
+  <!-- OUTER CIRCLE -->
+  <circle cx="240" cy="240" r="210" fill="none" stroke="#32312F" stroke-width="4"/>
+
+  <!-- INNER CIRCLE -->
+  <circle cx="240" cy="240" r="150" fill="none" stroke="#5C4639" stroke-width="3"/>
+
+  <!-- OUTER TEXT PATH -->
+  <defs>
+    <path id="outerCircle"
+          d="M 240,30
+             A 210,210 0 1,1 239.99,30"
+          fill="none" />
+  </defs>
+
+  <!-- OUTER TEXT: LAPIDARY GREEK + ANTITROPE + ÉDITIONS -->
+  <text class="outer-text">
+    <textPath href="#outerCircle" startOffset="50%" text-anchor="middle">
+      ΥΠΕΡ ΤΩΝ ΤΕΚΝΩΝ  ·  ANTITROPE  ·  ÉDITIONS
+    </textPath>
+  </text>
+
+  <!-- INNER CIRCLE TEXT PATH -->
+  <defs>
+    <path id="innerCircle"
+          d="M 240,90
+             A 150,150 0 1,1 239.99,90"
+          fill="none" />
+  </defs>
+
+  <!-- INNER TEXT: PHOENICIAN DUCTUS MOTTO -->
+  <text class="inner-text">
+    <textPath href="#innerCircle" startOffset="50%" text-anchor="middle">
+      𐤅𐤐𐤄𐤓   𐤕𐤅𐤍   𐤕𐤄𐤊𐤍𐤅𐤍
+    </textPath>
+  </text>
+
+  <!-- CENTRAL DEVICE: MINIMAL IONIC VOLUTE -->
+  <text x="240" y="265" class="device" text-anchor="middle">
+    ⟨⟩
+  </text>
+
+</svg>

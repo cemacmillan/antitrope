@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SearchIndexes Version="1.0">
+    <Documents>
+        <Document ID="D50EBCBE-2A04-4A0C-8E6F-FD525BCB7E10">
+            <Text>	4	Testing and Evaluation
+	•	Description of the testing methodology used for the FM
+	•	Results of the testing and evaluation, including performance metrics and any issues encountered</Text>
+        </Document>
+        <Document ID="7753A67E-8215-4B15-A0E8-6D7BF0179926">
+            <Text>	5	Conclusion
+	•	Summary of the FM project and its potential applications
+	•	Future directions for the project, including areas for improvement and further research</Text>
+        </Document>
+        <Document ID="96ED524B-2319-46E6-B080-E6679518EBBD">
+            <Text>1	Introduction
+
+	•	Purpose of the document
+	•	Overview of the Feely Matrix (FM) project</Text>
+        </Document>
+        <Document ID="8AA7705D-6AA4-46C1-BFBC-2721CCE64716">
+            <Text>Psyche Dynamics
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+								&lt;$Authorname&gt;
+
+
+
+
+
+
+&lt;$longdate&gt;</Text>
+        </Document>
+        <Document ID="30B5CFC9-795E-4B1A-8643-934CBBA9FFEE">
+            <Text>Appendices
+Code snippets or pseudocode for the FM implementation
+Additional technical details or supporting information
+</Text>
+        </Document>
+        <Document ID="E890B425-AD72-4B29-BB0A-685A5FD89E35">
+            <Text>3	Implementation
+	•	Description of the software and hardware components used in the FM implementation
+	•	Detailed explanation of how the FM is implemented in code, including algorithms and data structures</Text>
+        </Document>
+        <Document ID="FE0C39FD-0F36-4B18-9BE6-ADB6B997A13C">
+            <Text>	2	Architecture
+	•	Overview of the FM architecture
+	•	Detailed description of the FM components, including the lattice, input processing, output processing, and feedback loop</Text>
+        </Document>
+    </Documents>
+</SearchIndexes>

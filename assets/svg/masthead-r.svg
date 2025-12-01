@@ -1,0 +1,74 @@
+<svg width="480" height="480" viewBox="0 0 480 480" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- COLOR PALETTE: Reversed -->
+  <!-- Background: Smoke Wood (#5C4639) | Foreground: Aged Silk (#E6DFCC) -->
+
+  <defs>
+    <style type="text/css">
+      .outer-text {
+        font-family: "Noto Serif", "EB Garamond", serif;
+        font-size: 26px;
+        letter-spacing: 3px;
+        fill: #E6DFCC;
+      }
+      .inner-text {
+        font-family: "Noto Sans Phoenician", "Courier New", monospace;
+        font-size: 26px;
+        letter-spacing: 2.5px;
+        fill: #E6DFCC;
+      }
+      .tri-radial {
+        stroke: #E6DFCC;
+        stroke-width: 8;
+        stroke-linecap: round;
+      }
+    </style>
+  </defs>
+
+  <!-- BACKGROUND -->
+  <rect width="100%" height="100%" fill="#5C4639" />
+
+  <!-- INNER CIRCLE -->
+  <circle cx="240" cy="240" r="150" fill="none" stroke="#E6DFCC" stroke-width="3"/>
+
+  <!-- OUTER CIRCLE -->
+  <circle cx="240" cy="240" r="210" fill="none" stroke="#E6DFCC" stroke-width="4"/>
+
+  <!-- OUTER TEXT PATH -->
+  <defs>
+    <path id="outerCircle"
+          d="M 30,240
+             A 210,210 0 0,1 450,240"
+          fill="none" />
+  </defs>
+
+  <!-- OUTER TEXT -->
+  <text class="outer-text">
+    <textPath href="#outerCircle" startOffset="50%" text-anchor="middle">
+      ΥΠΕΡ ΤΩΝ ΤΕΚΝΩΝ  ·  ANTITROPE  ·  ÉDITIONS
+    </textPath>
+  </text>
+
+  <!-- INNER TEXT PATH -->
+  <defs>
+    <path id="innerCircle"
+          d="M 240,90
+             A 150,150 0 1,1 239.999,90"
+          fill="none" />
+  </defs>
+
+  <!-- INNER TEXT -->
+  <text class="inner-text">
+    <textPath href="#innerCircle" startOffset="50%" text-anchor="middle">
+      𐤅𐤐𐤄𐤓   𐤕𐤅𐤍   𐤕𐤄𐤊𐤍𐤅𐤍
+    </textPath>
+  </text>
+
+  <!-- CENTRAL TRI-RADIAL DEVICE -->
+  <!-- Geometric, non-rotational, triadic equilibrium symbol -->
+  <line x1="240" y1="200" x2="240" y2="140" class="tri-radial"/>
+  <line x1="240" y1="200" x2="195" y2="260" class="tri-radial"/>
+  <line x1="240" y1="200" x2="285" y2="260" class="tri-radial"/>
+
+</svg>
+
